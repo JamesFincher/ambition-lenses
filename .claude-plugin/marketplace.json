@@ -1,0 +1,12 @@
+{
+  "name": "ambition-lenses",
+  "description": "The ambition-lenses skill for Claude Code",
+  "owner": { "name": "James Fincher" },
+  "plugins": [
+    {
+      "name": "ambition-lenses",
+      "source": "./",
+      "description": "Super-developer operating philosophy: Speed, Altitude, Depth and Range, with countermeasures for known AI failure modes."
+    }
+  ]
+}
