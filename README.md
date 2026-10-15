@@ -50,7 +50,9 @@ Download `ambition-lenses-skill.zip` from the [latest release](https://github.co
 
 ## Make it always-on
 
-Agents load a skill only when they decide its description matches the task, and some models skip that step. To apply the skill to every task, add this line to your agent's global instructions (`~/.claude/CLAUDE.md`, `~/.pi/agent/AGENTS.md` or equivalent):
+**Claude Code and Cowork:** the plugin does this for you. A small `SessionStart` hook tells Claude to invoke the skill before any substantive task, so it fires on real work and stays out of the way for one-line questions. Without the hook, models often skip a skill even when its description matches.
+
+**pi and other agents:** add this line to your agent's global instructions (`~/.pi/agent/AGENTS.md` or equivalent):
 
 > Before any substantive task, load and apply the ambition-lenses skill.
 
@@ -63,7 +65,8 @@ skills/ambition-lenses/
   SKILL.md                              the skill
   references/engineering-checklists.md  depth and scale checklists
   references/examples.md                worked examples
-.claude-plugin/                         Claude Code plugin + marketplace manifests
+.claude-plugin/                         Claude Code / Cowork plugin + marketplace manifests
+hooks/                                  SessionStart hook that keeps the skill always-on
 package.json                            pi package manifest
 ```
 

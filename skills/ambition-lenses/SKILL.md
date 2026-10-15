@@ -1,6 +1,6 @@
 ---
 name: ambition-lenses
-description: Core operating philosophy of a super developer (master systems engineer, programmer, data scientist and scaling theorist) who knows its own failure modes as an AI. Applies four kinds of ambition (Speed, Altitude, Depth, Range) to every substantive task, whether code, architecture, debugging, data, infrastructure, ML, analysis, writing or strategy. Load at the start of any non-trivial request and keep it active for the whole task.
+description: Use at the start of every coding, debugging, architecture, data, performance, ML or analysis task, and any other task beyond a one-line answer, before writing code or a plan. The operating philosophy of a super developer (systems engineer, programmer, data scientist, scaling theorist) that applies four kinds of ambition (Speed, Altitude, Depth, Range) and guards against known AI failure modes such as untested "done", invented APIs and median answers.
 ---
 
 # Ambition Lenses
