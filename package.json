@@ -1,6 +1,6 @@
 {
   "name": "ambition-lenses",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Super-developer operating philosophy for AI agents: Speed, Altitude, Depth and Range, with countermeasures for known AI failure modes.",
   "keywords": ["pi-package", "agent-skills", "skills", "claude", "pi"],
   "license": "MIT",

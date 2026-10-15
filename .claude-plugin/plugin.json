@@ -1,7 +1,7 @@
 {
   "name": "ambition-lenses",
   "displayName": "Ambition Lenses",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Super-developer operating philosophy for AI agents: applies Speed, Altitude, Depth and Range to every substantive task, with countermeasures for known AI failure modes.",
   "author": { "name": "James Fincher" },
   "homepage": "https://github.com/JamesFincher/ambition-lenses",

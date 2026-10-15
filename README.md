@@ -58,6 +58,12 @@ Download `ambition-lenses-skill.zip` from the [latest release](https://github.co
 
 In pi you can also force it for one session with `/skill:ambition-lenses`.
 
+## What this plugin runs
+
+- **Skill:** plain Markdown instructions. No code.
+- **Hook:** one `SessionStart` hook that prints the text of `hooks/session-start.md` (a one-line reminder to use the skill) into the session.
+- **Nothing else:** no MCP servers, scripts, network calls, telemetry or data collection. The plugin reads and stores no personal data.
+
 ## Repo layout
 
 ```
