@@ -2,10 +2,28 @@
   "name": "ambition-lenses",
   "version": "1.1.1",
   "description": "Super-developer operating philosophy for AI agents: Speed, Altitude, Depth and Range, with countermeasures for known AI failure modes.",
-  "keywords": ["pi-package", "agent-skills", "skills", "claude", "pi"],
+  "keywords": [
+    "pi-package",
+    "agent-skills",
+    "skills",
+    "claude",
+    "pi"
+  ],
   "license": "MIT",
   "author": "James Fincher",
-  "files": ["skills", "README.md", "LICENSE"],
-  "pi": { "skills": ["./skills"] },
-  "repository": { "type": "git", "url": "git+https://github.com/JamesFincher/ambition-lenses.git" }
+  "files": [
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ],
+    "image": "https://raw.githubusercontent.com/JamesFincher/ambition-lenses/main/.claude-plugin/icon.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesFincher/ambition-lenses.git"
+  }
 }
